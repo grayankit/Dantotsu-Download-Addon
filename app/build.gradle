@@ -11,10 +11,10 @@ android {
     compileSdk 34
 
     defaultConfig {
-        minSdk 21
+        minSdk 24
         targetSdk 34
-        versionName "1.1.1"
-        versionCode 6
+        versionName "1.1.4"
+        versionCode 10
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -66,7 +66,7 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.12.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3'
-    implementation 'com.github.inorichi.injekt:injekt-core:65b0440'
+    implementation 'uy.kohesive.injekt:injekt-core:1.16.+'
     implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.12'
-    implementation group: 'com.arthenica', name: 'ffmpeg-kit-full-gpl', version: '6.0-2.LTS'
+    implementation 'com.antonkarpenko:ffmpeg-kit-full-gpl:2.2.0'
 }
